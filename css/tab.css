@@ -1,0 +1,40 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  /* This is header section start */
+  .navList {
+    top: 100%;
+    width: 130%;
+    left: -15%;
+  }
+  #menu {
+    font-size: 25px;
+  }
+  .nav img {
+    width: 25%;
+  }
+  /* This is header section end */
+  /* This is ready to learn section start */
+  .learnWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .learn {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+  /* This is ready to learn section End */
+  /* This is our book section start */
+  .bookWrap {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .singleBook {
+    width: 45%;
+  }
+  /* This is our book section end */
+}
