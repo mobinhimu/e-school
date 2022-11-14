@@ -3,17 +3,13 @@
     width: 80%;
   }
   /* This is header section start */
-  .navList {
-    top: 100%;
-    width: 130%;
-    left: -15%;
-  }
   #menu {
     font-size: 25px;
   }
   .nav img {
-    width: 25%;
+    max-width: 20%;
   }
+
   /* This is header section end */
   /* This is ready to learn section start */
   .learnWrap {
@@ -48,4 +44,29 @@
     width: 47%;
   }
   /* This is our Online Course section end */
+  /* This is our Testimonial section start */
+  .testimonial {
+    width: 45%;
+    /* justify-content: flex-start; */
+  }
+  .testimonial img {
+    width: 45%;
+  }
+  .testimonialWrap {
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* This is our Testimonial section end */
+  /* This is footer section start */
+  .singleFoot {
+    width: 35%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  .footerWrap {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* This is footer section end */
 }
