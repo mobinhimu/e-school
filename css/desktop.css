@@ -1,46 +1,49 @@
 @media only screen and (min-width: 992px) {
-  p {
-    font-size: 16px;
-  }
-  /* This is header section start */
   #menu {
     display: none;
   }
-  .navList {
+  .nav ul {
     display: block;
-    position: static;
+  }
+  ul.navList {
+    list-style-type: none;
     display: flex;
-    gap: 30px;
-    background-color: transparent;
-    padding: 0px;
+    gap: 35px;
   }
-  .praimaryBtn {
-    padding: 13px 30px;
+  ul.navList a {
+    color: black;
+    font-weight: 500;
   }
-  /* This is header section end */
-  /* This is ready to learn section start */
-  .learn h1 {
-    font-size: 40px;
-    line-height: 1.1;
-    padding-bottom: 10px;
+
+  button.praimaryBtn.sing {
+    padding: 10px 10px;
+    width: 105px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #21b573;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    cursor: pointer;
   }
-  /* This is ready to learn section End */
   .singleBook {
-    width: 22%;
-  }
-  /* This is our Online Course section start */
-  .courseWrap {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    width: 21%;
   }
   .card {
     width: 30%;
   }
-  .lastCard {
-    position: relative;
+
+  .card.lastCard {
     left: 0%;
     transform: translate(0%, 0%);
   }
-  /* This is our Online Course section end */
+  .testimonial {
+    width: 30%;
+  }
+  .singleFoot {
+    width: 20%;
+  }
+  .singleFoot {
+    justify-content: flex-start;
+  }
 }
